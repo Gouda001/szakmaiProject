@@ -1,150 +1,232 @@
 <!DOCTYPE html>
 <html lang="hu">
-	<head>
-        <meta charset="UTF-8">
-			<title>A számítógép felépítése</title>
-								<meta content="width=device-width, initial-scale=1" name="viewport">
-										<link href="../css/style.css" rel="stylesheet" type="text/css">
-											<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
-											<script type="text/javascript">WebFont.load({ google: {families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic","Fjalla One:regular"]}});</script>
 
-											<link href="favico.ico" rel="shortcut icon" type="image/x-icon">
-												<link href="favico.png" rel="apple-touch-icon">
-												</head>
-												<body>
+<head>
+	<meta charset="UTF-8">
+	<title>A számítógép felépítése</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+	<script type="text/javascript">
+		WebFont.load({
+			google: {
+				families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic",
+					"Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic", "Fjalla One:regular"
+				]
+			}
+		});
+	</script>
 
+	<link href="favico.ico" rel="shortcut icon" type="image/x-icon">
+	<link href="favico.png" rel="apple-touch-icon">
+</head>
 
-													<div class="sidebar-column">
-														<div class="navigation-bar w-nav" data-animation="default" data-collapse="medium" data-contain="1" data-duration="400">
-															<div class="w-container">
-																	<h1 class="logo-text">A számítógép felépítése</h1>
-																</a>
-																<nav class="navigation-menu w-nav-menu" role="navigation">
-																	<p class="main-subheading w-hidden-medium w-hidden-small w-hidden-tiny">A számítógépek története az abakusztól napjainkig. Az első számítógép és annak Neumann János által megfogalmazott alapelvei.</p>
-																	<div class="divider w-hidden-medium w-hidden-small w-hidden-tiny"></div>
-																	<a class="nav-link w-nav-link" href="../index.html">Főoldal</a>
-																	<a class="nav-link w-nav-link" href="../all.html">Témák</a>
-																	<a class="nav-link w-nav-link" href="../about.html">Rólunk</a>
-																	<a class="nav-link w-nav-link" href="../contact.html">Kapcsolat</a>
-																	<div class="divider"></div>
-																	<div class="social-link-group">
-																		<a class="social-icon-link w-inline-block" href="#">
-														<img src="../img/facebook.svg" width="25">
-														</a>
-														<a class="social-icon-link w-inline-block" href="#">
-															<img src="../img/twitter.svg" width="25">
-															</a>
-															<a class="social-icon-link w-inline-block" target="_blank" href="http://www.grofkarolyiiskola.hu/">
-																<img src="../img/ie.svg" width="25">
-																</a>
-																<a class="social-icon-link w-inline-block" href="#">
-																	<img src="../img/github.svg" width="25">
-																	</a>
-																	<a class="social-icon-link w-inline-block" href="#">
-																		<img src="../img/instagram.svg" width="25">
-																		</a>
-																		<a class="social-icon-link w-inline-block" href="#">
-																			<img src="../img/linkedin.svg" width="25">
-																			</a>
-                                                                        <a class="social-icon-link w-inline-block" href="#" onclick="printPage()">
-																				<img src="../img/print.svg" width="25">
-																				</a>
-																							</div>
-																						</nav>
-																						<div class="menu-button w-nav-button">
-																							<div class="w-icon-nav-menu"></div>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																			<div class="content">
-																				<div class="w-container">
-																					<div class="post-title-section">
-																						<h1>A számítógép felépítése</h1>
-																						<div class="post-info-wrapper">
-																							<div class="post-info">2018, Október 03.</div>
-																							<div class="post-info">|</div>
-																							<a class="post-info when-link" href="/categories/travel">Informatika</a>
-																						</div>
-																					</div>
-																					<div class="body-copy w-richtext">
-																						<p>A számítógépet két féle képpen vehetjük figyelembe. Vagy <strong>hardverek</strong> alapján, vagy <strong>szoftverek</strong> alapján. Hardvernek nevezzük magát a számítógépet és minden kézzel megfogható tartozékát és Szoftvernek nevezzük a számítógépre írt programokat (operációs rendszer, szövegszerkesztő, böngésző, stb.) és az ezekhez mellékelt írásos dokumentációkat. </p>
-																						<h2>A számítógép működéséhez szükséges hardverek</h2>
-																						<h4>Alaplap</h4>
-																						<p>Feladata a hardverek összehangolása, és a kommunikáció biztosítása a hardverek között, különböző csatlakozókkal van ellátva, mint például PS2, USB, PCI, PCI-Express, VGA és egyéb csatlakozók. A mai alaplapokon már gyakori az integrált kártyák alkalmazása is, pl integrált hangkártya, hálózati kártya, vagy videókártya. </p>
-																						<h4>Processzor - CPU</h4>
-																						<p>Központi adatfeldolgozó egység; (Central Processing Unit), működési sebességét Hz-ben , MHz-ben vagy GHz-ben adják meg. A cache-memória a processzor és a memória közötti adatátvitelt gyorsítja. Csatlakozik hozzá még egy hűtőventillátor, ezzel elkerülve a  processzor túlmelegedését.</p>
-																						<h4>ROM - Read Only Memory</h4>
-																						<p>Ez a közvetlen elérésű memória, másnéven a nem felejtő memória/ tároló. Tartalma állandó, gyárilag meghatározott operációs rendszert tartalmaz. Rom-Bios- Basic Input-Output System: alap be- és kimeneti rendszer. A ROM-BIOS az a beépített program, amely kezeli a be- és kimeneteket, és kapcsolatot teremt az operációs rendszerrel. Fajtái: PROM (Programmable ROM), EPROM (Erasable ROM), EEPROM (Electrically Erasable ROM). </p>
-																						<h4>Háttértárolók</h4>
-																						<p>Ezt szintén két féle csoportra tudjuk lebontani, <strong>HDD</strong> re és <strong>SSD</strong> re. A HDD egy kemény fémkorong van, lég- és pormentes dobozba zárva. Írható és olvasható is, kapacitása a régi pár MB tól egészen TB ig terjedhet, legtöbbször a C:\ meghajtóként van elnevezve, mivel az első két betű a Floppyké. </p>
-																						<p>Az SSD, amennyivel drágább és fejlettebb, annyival jobban teljesít. Nincs mechanikus alkatrész ami meghibásodhatna, élettartama dupla annyi mint a HDD é, írási és olvasási sebessége szintén jóval nagyobb mint a hagyományos merevlemezeké. Gyakran erre telepítik az operációs rendszereket, mivel gyorsabb a boot folyamat, és minden sokkal gyorsabban töltődik be mint a hagyományos merevlemezekről. Nem termel hőt, kicsi az áram fogyasztása, viszont ha meghibásodik, viszonylag nehéz vissza nyerni az adatokat.</p>
-
-																						<h2>A legelső számítógép</h2>
-																						<p>A legelső számítógép Neumann János nevéhez kapcsolódik <strong>ENIAC</strong> néven. Ez volt a legelső teljesen elektromos számítógép.2,5 m magas volt, 40 m hosszú és 30 tonna. Körülbelül 5 millió kézi forrasztást tartalmazott. Az összeadást és a kivonást 1/5000 másodperc alatt végezte el, ezzel 500-szor gyorsabb volt, mint az akkoriban megjelent MARK II.
-
-																						</p>
-																						<figure data-rt-type="image" data-rt-align="center" data-rt-max-width="60" class="w-richtext-align-center" style="max-width: 60%;" data-rt-max-height="33.75">
-																							<div>
-																								<img src="../img/ENIAC.jpg" alt="Eniac">
-																								</div>
-																								<figcaption>Az Eniac (Electronic Numerical Intergrator And Computer)</figcaption>
-																							</figure>
-																						<p>Közel 18.000 elektroncsövet tartalmazott, melyek közül ha egy meghibásodott akkor mind a 17.468 csövet ki kellett cserélni ami nem volt igazán időtakarékos. Elektroncsöves rendszerű volt, a csöveket modulárisan építették be, ezért a karbantartása gyors és egyszerű volt, két naponta negyedórás szerelést igényelt. 7200 félvezető diódát és 1500 jelfogót építettek bele. Mivel a második világháború idején vagyunk, az ENIAC ot 1943 ban kezdték fejleszteni elsősorban katonai célokra. Teljesítménye 100 kHz re rúgott ki, áramfelvétele közel 170 kW volt, valamint 10 es számrendszert használt. Egészen 1947 től 1955 október 2. a hadsereg számára segédkezett, ballisztikai számításokat végeztettek vele, röppálya számításokat. Utóda az EDVAC volt, mely teljes mértékben a Neumann elvek alapján készült 1951 ben, szintén katonai célokra használták.</p>
-																						<h2>Számítógép generációk</h2>
-																						<h4>Nulladik Generáció</h4>
-																							<p>A nulladik generációról már esett pár szó csak más néven, ezek a nem elektronikus hanem mechanikus számológépek voltak, mint például a Pascal, vagy az abakusz</p>
-																						<h4>Első Generáció</h4>
-																							<p>Ez a korszak <strong>1943 - 1954</strong>-ig volt, az elektroncsöves gépekkel az élükön. Röviden a jellemzőjük a hatalmas áramfelvétel, amivel egy várost ki lehet világítani este, a gyakori meghibásodás az elektroncsövek miatt, a processzor központú műveletvégzés. Műveleti sebességük kb <strong>1000-5000 művelet / sec</strong>. A legelső kereskedelembe került gép, az UNIVAC  tól számítjuk. </p>
-																						<h4>Második Generáció</h4>
-																							<p>A generáció <strong>1954 - 1964</strong>-ig tartott. Nagy fejlődés történt, az elektroncsöveket leváltotta a tranzisztor, és a jóval kisebb diódák.Áramfogyasztásuk csökken, már csak egy fél várost lehet vele kivilágítani, műveleti sebességük közel <strong>100.000 műv./sec</strong> re nő, méretük már csak egy fél szobányit foglal el. Megjelennek az első programozási nyelvek (pl FORTRAN, ALGOL, COBOL, BASIC), valamint a mágnesszalagos és mágneslemezes háttértárolók(IBM 3340 és a 1140 – 2MB os tárolókapacitás). Megváltozott a műveletvégzés olyan értelemben, hogy mostantól memóriacentrikus a dolog, nem a processzoron alapul minden.</p>
-																						<h4>Harmadik Generáció</h4>
-																							<p><strong>Az integrált áramkörök</strong> korszaka, nem is lehetett volna szebben mondani. <strong>1964 től tartott 1971</strong>-ig. Rohamos fejlődésnek indul a számítástechnika, a gépek ára és mérete fordítottan arányosan változik a műveleti sebességükkel, mely ekkor már közel <strong>1.000.000 műv./sec</strong>. Kibontakoznak az első operációs rendszerek (DOS & OS), valamint a merevlemezes háttértárolók. Ezek a gépek már teljesen önállóan működnek, akár párhuzamosan is.</p>
-																						<h4>Negyedik Generáció</h4>
-																							<p>A negyedik generációt egészen <strong>1971 - 1990</strong>-ig tartott, ez volt a mikroprocesszorok korszaka. Programozási nyelvként megjelenik a Pascal. Méretük csökken, áruk csökken, gyorsaságuk nő. A nagyobb teljesítményű hardver összetettebb, könnyebben kezelhető programok készítését tette lehetővé. Az egyre nagyobb teljesítmény az egyre erősebb hardvereket kívánta maga mellé, így fejlődtek a processzorok is, és a memóriák is. </p>
-																							<p>Ekkor jelenik meg az Intel első szilíciumlapkára rakott 2300 tranzisztorból álló 7mm es processzora. <strong>1972</strong>-ben kifejleszetették, majd <strong>1974</strong>-ben piacra dobták a HP első tudományos zsebszámológépét. <strong>1974</strong>-ben mutatkozik be az Altair 800 as, a legelső személyi számítógép amit személyes használatra terveztek. Ára 400$ volt, konkrét billentyűzet helyett egy kapcsolótábla állt a rendelkezésünkre. </p>
-																							<p>A nagy áttörés <strong>1981</strong>-ben volt, mikor az IBM PC megjelent a piacon, mint az első személyi számítógép, ezzel egy „forradalmat” indítva a fejlődés felé. Ezzel ellentétben az Apple már hamarabb ott volt a színen, <strong>1977</strong>-be mutatta be első számítógépét. A parancsvezérléses kezelést pedig felváltotta a grafikus kezelőfelület. Ebbe a generációba tartozik még bele az internet nagyon lassú fejlődése, valamint az első vírusok megjelenése.</p>
-																						<h4>Ötödik Generáció</h4>
-																								<p><strong>1991-től napjainkig</strong> tartják számon az ötödik generációt. <strong>1990</strong> körül megjelent az internet mint egy hatalmas előrelépés az informatikában, ezzel együtt az első hálózatok is színteret kaptak. A cél ekkor már az volt, hogy minél nagyobb teljesítményű számítógépet erőszakoljanak bele minél kisebb készülékbe. </p>
-																								<p>Megjelennek a játékok, melyekre mai szemmel boldogan tekintünk vissza, megjelenik a mesterséges intelligencia több kevesebb sikerrel. Most is folynak kutatások a fejlődés érdekében, vagyis az optikai számítógépek iránt. Annyibban különböznek a mostanitól, hogy az optikai gépek már fényimpulzusokat használnának a sokkal gyorsabb adatátvitel érdekében.</p>
-
-																						</div>
-																						<div class="button-wrapper">
-                                                                                            <a class="button w-button" onclick="openPopupMenu(); renderQuestion();" >Teszt kitöltése&nbsp;</a>
-																						</div>
-																					</div>
-																				</div>
+<body>
 
 
-                                                        <div id="popup_bg">
-                                                        <div id="popup_main">
-                                                            <div class="answer-bar" id="answer-bar-0"></div>
-                                                            <div class="answer-bar" id="answer-bar-1"></div>
-                                                            <div class="answer-bar" id="answer-bar-2"></div>
-                                                            <div class="answer-bar" id="answer-bar-3"></div>
-                                                            <p id="question-num"></p>
-                                                            <p id="question"></p>
-                                                        <div id="answers">
-                                                        <p id="ans"  class="answer" onclick='checkAnswer(1)'><span class='answer-num'>A</span> &nbsp;&nbsp; </p>
-                                                        <p id="ans1" class="answer" onclick='checkAnswer(2)'><span class='answer-num'>B</span> &nbsp;&nbsp;</p>
-                                                        <p id="ans2" class="answer" onclick='checkAnswer(3)'><span class='answer-num'>C</span> &nbsp;&nbsp;</p>
-                                                        <p id="ans3" class="answer" onclick='checkAnswer(4)'><span class='answer-num'>D</span> &nbsp;&nbsp;</p>
+	<div class="sidebar-column">
+		<div class="navigation-bar w-nav" data-animation="default" data-collapse="medium" data-contain="1" data-duration="400">
+			<div class="w-container">
+				<h1 class="logo-text">A számítógép felépítése</h1>
+				</a>
+				<nav class="navigation-menu w-nav-menu" role="navigation">
+					<p class="main-subheading w-hidden-medium w-hidden-small w-hidden-tiny">A számítógépek története az abakusztól
+						napjainkig. Az első számítógép és annak Neumann János által megfogalmazott alapelvei.</p>
+					<div class="divider w-hidden-medium w-hidden-small w-hidden-tiny"></div>
+					<a class="nav-link w-nav-link" href="../index.html">Főoldal</a>
+					<a class="nav-link w-nav-link" href="../all.html">Témák</a>
+					<a class="nav-link w-nav-link" href="../about.html">Rólunk</a>
+					<a class="nav-link w-nav-link" href="../contact.html">Kapcsolat</a>
+					<div class="divider"></div>
+					<div class="social-link-group">
+						<a class="social-icon-link w-inline-block" href="#">
+							<img src="../img/facebook.svg" width="25">
+						</a>
+						<a class="social-icon-link w-inline-block" href="#">
+							<img src="../img/twitter.svg" width="25">
+						</a>
+						<a class="social-icon-link w-inline-block" target="_blank" href="http://www.grofkarolyiiskola.hu/">
+							<img src="../img/ie.svg" width="25">
+						</a>
+						<a class="social-icon-link w-inline-block" href="#">
+							<img src="../img/github.svg" width="25">
+						</a>
+						<a class="social-icon-link w-inline-block" href="#">
+							<img src="../img/instagram.svg" width="25">
+						</a>
+						<a class="social-icon-link w-inline-block" href="#">
+							<img src="../img/linkedin.svg" width="25">
+						</a>
+						<a class="social-icon-link w-inline-block" href="#" onclick="printPage()">
+							<img src="../img/print.svg" width="25">
+						</a>
+					</div>
+				</nav>
+				<div class="menu-button w-nav-button">
+					<div class="w-icon-nav-menu"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="topnav">
+		<a href="#home" class="active">Logo</a>
+		<div id="myLinks">
+			<a href="index.html">Főoldal</a>
+			<a href="all.html">Témák</a>
+			<a href="about.html">Rólunk</a>
+			<a href="contact.html">Kapcsolat</a>
+		</div>
+		<a href="javascript:void(0);" class="icon" onclick="mobileNav()">
+			<img src="img/menu.svg">
+		</a>
+	</div>
+	<div class="content">
+		<div class="w-container">
+			<div class="post-title-section">
+				<h1>A számítógép felépítése</h1>
+				<div class="post-info-wrapper">
+					<div class="post-info">2018, Október 03.</div>
+					<div class="post-info">|</div>
+					<a class="post-info when-link" href="/categories/travel">Informatika</a>
+				</div>
+			</div>
+			<div class="body-copy w-richtext">
+				<p>A számítógépet két féle képpen vehetjük figyelembe. Vagy <strong>hardverek</strong> alapján, vagy <strong>szoftverek</strong>
+					alapján. Hardvernek nevezzük magát a számítógépet és minden kézzel megfogható tartozékát és Szoftvernek nevezzük a
+					számítógépre írt programokat (operációs rendszer, szövegszerkesztő, böngésző, stb.) és az ezekhez mellékelt írásos
+					dokumentációkat. </p>
+				<h2>A számítógép működéséhez szükséges hardverek</h2>
+				<h4>Alaplap</h4>
+				<p>Feladata a hardverek összehangolása, és a kommunikáció biztosítása a hardverek között, különböző csatlakozókkal
+					van ellátva, mint például PS2, USB, PCI, PCI-Express, VGA és egyéb csatlakozók. A mai alaplapokon már gyakori az
+					integrált kártyák alkalmazása is, pl integrált hangkártya, hálózati kártya, vagy videókártya. </p>
+				<h4>Processzor - CPU</h4>
+				<p>Központi adatfeldolgozó egység; (Central Processing Unit), működési sebességét Hz-ben , MHz-ben vagy GHz-ben
+					adják meg. A cache-memória a processzor és a memória közötti adatátvitelt gyorsítja. Csatlakozik hozzá még egy
+					hűtőventillátor, ezzel elkerülve a processzor túlmelegedését.</p>
+				<h4>ROM - Read Only Memory</h4>
+				<p>Ez a közvetlen elérésű memória, másnéven a nem felejtő memória/ tároló. Tartalma állandó, gyárilag meghatározott
+					operációs rendszert tartalmaz. Rom-Bios- Basic Input-Output System: alap be- és kimeneti rendszer. A ROM-BIOS az a
+					beépített program, amely kezeli a be- és kimeneteket, és kapcsolatot teremt az operációs rendszerrel. Fajtái: PROM
+					(Programmable ROM), EPROM (Erasable ROM), EEPROM (Electrically Erasable ROM). </p>
+				<h4>Háttértárolók</h4>
+				<p>Ezt szintén két féle csoportra tudjuk lebontani, <strong>HDD</strong> re és <strong>SSD</strong> re. A HDD egy
+					kemény fémkorong van, lég- és pormentes dobozba zárva. Írható és olvasható is, kapacitása a régi pár MB tól
+					egészen TB ig terjedhet, legtöbbször a C:\ meghajtóként van elnevezve, mivel az első két betű a Floppyké. </p>
+				<p>Az SSD, amennyivel drágább és fejlettebb, annyival jobban teljesít. Nincs mechanikus alkatrész ami
+					meghibásodhatna, élettartama dupla annyi mint a HDD é, írási és olvasási sebessége szintén jóval nagyobb mint a
+					hagyományos merevlemezeké. Gyakran erre telepítik az operációs rendszereket, mivel gyorsabb a boot folyamat, és
+					minden sokkal gyorsabban töltődik be mint a hagyományos merevlemezekről. Nem termel hőt, kicsi az áram
+					fogyasztása, viszont ha meghibásodik, viszonylag nehéz vissza nyerni az adatokat.</p>
 
-																														</div>
+				<h2>A legelső számítógép</h2>
+				<p>A legelső számítógép Neumann János nevéhez kapcsolódik <strong>ENIAC</strong> néven. Ez volt a legelső teljesen
+					elektromos számítógép.2,5 m magas volt, 40 m hosszú és 30 tonna. Körülbelül 5 millió kézi forrasztást
+					tartalmazott. Az összeadást és a kivonást 1/5000 másodperc alatt végezte el, ezzel 500-szor gyorsabb volt, mint az
+					akkoriban megjelent MARK II.
 
-																													</div>
-                                                              </div>
-                                                      </div>
-																				<script>
-																				var questions = [
-																						[ "Hány féle képpen értelmezhetjük a felépítését egy gépnek?", "2", "3", "4", "6", "1" ],
-																						[ "Mit Jelent a ROM?", "Random Acces Memory", "Register of Merit", "Read Only Memory", "Range Of Motion", "3" ],
-																						[ "Mit jelent a CPU?", "Central Protected Unit", "Central Processing Unit", "Covered Processing Unit", "Covered Protecting Unit", "2" ],
-																						[ "Melyik a kakukktojás?", "Floppy", "HDD", "SSD", "CD", "4" ]
-																					];
-																				</script>
-                                        <script type="text/javascript" src="../js/popup.js"></script>
-                                        <script type="text/javascript" charset="UTF-8" src="../js/quiz.js"></script>
-                                        <script type="text/javascript" src="../js/print.js"></script>
-																			</body>
-																		</html>
+				</p>
+				<figure data-rt-type="image" data-rt-align="center" data-rt-max-width="60" class="w-richtext-align-center" style="max-width: 60%;"
+				 data-rt-max-height="33.75">
+					<div>
+						<img src="../img/ENIAC.jpg" alt="Eniac">
+					</div>
+					<figcaption>Az Eniac (Electronic Numerical Intergrator And Computer)</figcaption>
+				</figure>
+				<p>Közel 18.000 elektroncsövet tartalmazott, melyek közül ha egy meghibásodott akkor mind a 17.468 csövet ki
+					kellett cserélni ami nem volt igazán időtakarékos. Elektroncsöves rendszerű volt, a csöveket modulárisan építették
+					be, ezért a karbantartása gyors és egyszerű volt, két naponta negyedórás szerelést igényelt. 7200 félvezető diódát
+					és 1500 jelfogót építettek bele. Mivel a második világháború idején vagyunk, az ENIAC ot 1943 ban kezdték
+					fejleszteni elsősorban katonai célokra. Teljesítménye 100 kHz re rúgott ki, áramfelvétele közel 170 kW volt,
+					valamint 10 es számrendszert használt. Egészen 1947 től 1955 október 2. a hadsereg számára segédkezett,
+					ballisztikai számításokat végeztettek vele, röppálya számításokat. Utóda az EDVAC volt, mely teljes mértékben a
+					Neumann elvek alapján készült 1951 ben, szintén katonai célokra használták.</p>
+				<h2>Számítógép generációk</h2>
+				<h4>Nulladik Generáció</h4>
+				<p>A nulladik generációról már esett pár szó csak más néven, ezek a nem elektronikus hanem mechanikus számológépek
+					voltak, mint például a Pascal, vagy az abakusz</p>
+				<h4>Első Generáció</h4>
+				<p>Ez a korszak <strong>1943 - 1954</strong>-ig volt, az elektroncsöves gépekkel az élükön. Röviden a jellemzőjük a
+					hatalmas áramfelvétel, amivel egy várost ki lehet világítani este, a gyakori meghibásodás az elektroncsövek miatt,
+					a processzor központú műveletvégzés. Műveleti sebességük kb <strong>1000-5000 művelet / sec</strong>. A legelső
+					kereskedelembe került gép, az UNIVAC tól számítjuk. </p>
+				<h4>Második Generáció</h4>
+				<p>A generáció <strong>1954 - 1964</strong>-ig tartott. Nagy fejlődés történt, az elektroncsöveket leváltotta a
+					tranzisztor, és a jóval kisebb diódák.Áramfogyasztásuk csökken, már csak egy fél várost lehet vele kivilágítani,
+					műveleti sebességük közel <strong>100.000 műv./sec</strong> re nő, méretük már csak egy fél szobányit foglal el.
+					Megjelennek az első programozási nyelvek (pl FORTRAN, ALGOL, COBOL, BASIC), valamint a mágnesszalagos és
+					mágneslemezes háttértárolók(IBM 3340 és a 1140 – 2MB os tárolókapacitás). Megváltozott a műveletvégzés olyan
+					értelemben, hogy mostantól memóriacentrikus a dolog, nem a processzoron alapul minden.</p>
+				<h4>Harmadik Generáció</h4>
+				<p><strong>Az integrált áramkörök</strong> korszaka, nem is lehetett volna szebben mondani. <strong>1964 től
+						tartott 1971</strong>-ig. Rohamos fejlődésnek indul a számítástechnika, a gépek ára és mérete fordítottan
+					arányosan változik a műveleti sebességükkel, mely ekkor már közel <strong>1.000.000 műv./sec</strong>.
+					Kibontakoznak az első operációs rendszerek (DOS & OS), valamint a merevlemezes háttértárolók. Ezek a gépek már
+					teljesen önállóan működnek, akár párhuzamosan is.</p>
+				<h4>Negyedik Generáció</h4>
+				<p>A negyedik generációt egészen <strong>1971 - 1990</strong>-ig tartott, ez volt a mikroprocesszorok korszaka.
+					Programozási nyelvként megjelenik a Pascal. Méretük csökken, áruk csökken, gyorsaságuk nő. A nagyobb teljesítményű
+					hardver összetettebb, könnyebben kezelhető programok készítését tette lehetővé. Az egyre nagyobb teljesítmény az
+					egyre erősebb hardvereket kívánta maga mellé, így fejlődtek a processzorok is, és a memóriák is. </p>
+				<p>Ekkor jelenik meg az Intel első szilíciumlapkára rakott 2300 tranzisztorból álló 7mm es processzora. <strong>1972</strong>-ben
+					kifejleszetették, majd <strong>1974</strong>-ben piacra dobták a HP első tudományos zsebszámológépét. <strong>1974</strong>-ben
+					mutatkozik be az Altair 800 as, a legelső személyi számítógép amit személyes használatra terveztek. Ára 400$ volt,
+					konkrét billentyűzet helyett egy kapcsolótábla állt a rendelkezésünkre. </p>
+				<p>A nagy áttörés <strong>1981</strong>-ben volt, mikor az IBM PC megjelent a piacon, mint az első személyi
+					számítógép, ezzel egy „forradalmat” indítva a fejlődés felé. Ezzel ellentétben az Apple már hamarabb ott volt a
+					színen, <strong>1977</strong>-be mutatta be első számítógépét. A parancsvezérléses kezelést pedig felváltotta a
+					grafikus kezelőfelület. Ebbe a generációba tartozik még bele az internet nagyon lassú fejlődése, valamint az első
+					vírusok megjelenése.</p>
+				<h4>Ötödik Generáció</h4>
+				<p><strong>1991-től napjainkig</strong> tartják számon az ötödik generációt. <strong>1990</strong> körül megjelent
+					az internet mint egy hatalmas előrelépés az informatikában, ezzel együtt az első hálózatok is színteret kaptak. A
+					cél ekkor már az volt, hogy minél nagyobb teljesítményű számítógépet erőszakoljanak bele minél kisebb készülékbe.
+				</p>
+				<p>Megjelennek a játékok, melyekre mai szemmel boldogan tekintünk vissza, megjelenik a mesterséges intelligencia
+					több kevesebb sikerrel. Most is folynak kutatások a fejlődés érdekében, vagyis az optikai számítógépek iránt.
+					Annyibban különböznek a mostanitól, hogy az optikai gépek már fényimpulzusokat használnának a sokkal gyorsabb
+					adatátvitel érdekében.</p>
+
+			</div>
+			<div class="button-wrapper">
+				<a class="button w-button" onclick="openPopupMenu(); renderQuestion();">Teszt kitöltése&nbsp;</a>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="popup_bg">
+		<div id="popup_main">
+			<div class="answer-bar" id="answer-bar-0"></div>
+			<div class="answer-bar" id="answer-bar-1"></div>
+			<div class="answer-bar" id="answer-bar-2"></div>
+			<div class="answer-bar" id="answer-bar-3"></div>
+			<p id="question-num"></p>
+			<p id="question"></p>
+			<div id="answers">
+				<p id="ans" class="answer" onclick='checkAnswer(1)'><span class='answer-num'>A</span> &nbsp;&nbsp; </p>
+				<p id="ans1" class="answer" onclick='checkAnswer(2)'><span class='answer-num'>B</span> &nbsp;&nbsp;</p>
+				<p id="ans2" class="answer" onclick='checkAnswer(3)'><span class='answer-num'>C</span> &nbsp;&nbsp;</p>
+				<p id="ans3" class="answer" onclick='checkAnswer(4)'><span class='answer-num'>D</span> &nbsp;&nbsp;</p>
+
+			</div>
+
+		</div>
+	</div>
+	</div>
+	<script>
+		var questions = [
+			["Hány féle képpen értelmezhetjük a felépítését egy gépnek?", "2", "3", "4", "6", "1"],
+			["Mit Jelent a ROM?", "Random Acces Memory", "Register of Merit", "Read Only Memory", "Range Of Motion", "3"],
+			["Mit jelent a CPU?", "Central Protected Unit", "Central Processing Unit", "Covered Processing Unit",
+				"Covered Protecting Unit", "2"
+			],
+			["Melyik a kakukktojás?", "Floppy", "HDD", "SSD", "CD", "4"]
+		];
+	</script>
+	<script type="text/javascript" src="../js/popup.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="../js/quiz.js"></script>
+	<script type="text/javascript" src="../js/print.js"></script>
+</body>
+
+</html>
