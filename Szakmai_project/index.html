@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Főoldal</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+	<script type="text/javascript">
+		WebFont.load({
+			google: {
+				families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic",
+					"Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic", "Fjalla One:regular"
+				]
+			}
+		});
+	</script>
+
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<link href="favicon.png" rel="apple-touch-icon">
+</head>
+
+<body>
+	<div class="sidebar-column">
+		<div class="navigation-bar w-nav" data-animation="default" data-collapse="medium" data-contain="1" data-duration="400">
+			<div class="w-container">
+				<a class="logo-link w-nav-brand" href="#">
+					<h1 class="logo-text">Főoldal</h1>
+				</a>
+				<nav class="navigation-menu w-nav-menu" role="navigation">
+					<p class="main-subheading w-hidden-medium w-hidden-small w-hidden-tiny">Lorem ipsum dolor sit amet, consectetur
+						adipiscing elit. Integer sit amet nulla suscipit, vulputate ante eget, feugiat dolor. Integer ultrices ultrices
+						pellentesque. Phasellus.</p>
+					<div class="divider w-hidden-medium w-hidden-small w-hidden-tiny"></div>
+					<a class="nav-link w-nav-link" href="index.html">Főoldal</a>
+					<a class="nav-link w-nav-link" href="all.html">Témák</a>
+					<a class="nav-link w-nav-link" href="about.html">Rólunk</a>
+					<a class="nav-link w-nav-link" href="contact.html">Kapcsolat</a>
+					<div class="divider"></div>
+					<div class="social-link-group">
+						<a class="social-icon-link w-inline-block" href="#">
+							<img src="img/facebook.svg" width="25">
+						</a>
+						<a class="social-icon-link w-inline-block" href="#">
+							<img src="img/twitter.svg" width="25">
+						</a>
+						<a class="social-icon-link w-inline-block" target="_blank" href="http://www.grofkarolyiiskola.hu/">
+							<img src="img/ie.svg" width="25">
+						</a>
+						<a class="social-icon-link w-inline-block" href="#">
+							<img src="img/github.svg" width="25">
+						</a>
+						<a class="social-icon-link w-inline-block" href="#">
+							<img src="img/instagram.svg" width="25">
+						</a>
+						<a class="social-icon-link w-inline-block" href="#">
+							<img src="img/linkedin.svg" width="25">
+						</a>
+
+					</div>
+				</nav>
+				<div class="menu-button w-nav-button">
+					<div class="w-icon-nav-menu"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="topnav">
+		<a href="#home" class="active">Logo</a>
+		<div id="myLinks">
+			<a href="#news">News</a>
+			<a href="#contact">Contact</a>
+			<a href="#about">About</a>
+		</div>
+		<a href="javascript:void(0);" class="icon" onclick="mobileNav()">
+			<i class="fa fa-bars">asd</i>
+		</a>
+	</div>
+	<div class="content">
+
+		<div class="blog-list w-dyn-list">
+			<div class="w-dyn-items">
+				<div class="w-dyn-item">
+					<div class="post-wrapper">
+						<a class="blog-title-link w-inline-block" href="/posts/coffee-variety-macchiato-as-organic-ut-variety-caffeine-americano">
+							<h1 class="blog-title">A számítógép történelme</h1>
+						</a>
+						<div class="post-info-wrapper">
+							<div class="post-info">2018, Oktober 1.</div>
+							<div class="post-info">|</div>
+							<a class="post-info when-link" href="/categories/travel">Informatika</a>
+						</div>
+						<p class="post-summary">A számítógépek története az abakusztól napjainkig. Az első számítógép és annak Neumann
+							János által megfogalmazott alapelvei.</p>
+						<a class="button-round w-button" href="library/Szamitogep_tortenelem.html">Tétel megtekintése ❭</a>
+					</div>
+				</div>
+				<div class="w-dyn-item">
+					<div class="post-wrapper">
+						<a class="blog-title-link w-inline-block" href="/posts/cafe-au-lait-turkish-doppio-ristretto">
+							<h1 class="blog-title">Nullam lectus augue, ullamcorper vitae.</h1>
+						</a>
+						<div class="post-info-wrapper">
+							<div class="post-info">2001, Március 26.</div>
+							<div class="post-info">|</div>
+							<a class="post-info when-link" href="#">Info</a>
+						</div>
+						<p class="post-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula dui velit, nec
+							tempor dui ultricies ac. Nullam ut sodales sapien. Ut quis molestie erat. Cras a erat nibh. Etiam venenatis
+							lectus a lorem tincidunt, ac laoreet arcu pulvinar. Duis efficitur porttitor eleifend. Fusce.</p>
+						<a class="button-round w-button" href="/posts/cafe-au-lait-turkish-doppio-ristretto">Tétel megtekintése ❭</a>
+					</div>
+				</div>
+				<div class="w-dyn-item">
+					<div class="post-wrapper">
+						<a class="blog-title-link w-inline-block" href="/posts/coffee-sugar-chicory-seasonal-espresso-barista-americano">
+							<h1 class="blog-title">Nam id blandit neque, egestas.</h1>
+						</a>
+						<div class="post-info-wrapper">
+							<div class="post-info">2001, Március 26.</div>
+							<div class="post-info">|</div>
+							<a class="post-info when-link" href="#">Irodalom</a>
+						</div>
+						<p class="post-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula dui velit, nec
+							tempor dui ultricies ac. Nullam ut sodales sapien. Ut quis molestie erat. Cras a erat nibh. Etiam venenatis
+							lectus a lorem tincidunt, ac laoreet arcu pulvinar. Duis efficitur porttitor eleifend. Fusce.</p>
+						<a class="button-round w-button" href="/posts/coffee-sugar-chicory-seasonal-espresso-barista-americano">Tétel
+							megtekintése ❭</a>
+					</div>
+				</div>
+				<div class="w-dyn-item">
+					<div class="post-wrapper">
+						<a class="blog-title-link w-inline-block" href="/posts/half-and-half-variety-milk-viennese-body-cappuccino">
+							<h1 class="blog-title">Suspendisse potenti. Cras accumsan nisl.</h1>
+						</a>
+						<div class="post-info-wrapper">
+							<div class="post-info">2001, Március 26.</div>
+							<div class="post-info">|</div>
+							<a class="post-info when-link" href="#">Történelem</a>
+						</div>
+						<p class="post-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula dui velit, nec
+							tempor dui ultricies ac. Nullam ut sodales sapien. Ut quis molestie erat. Cras a erat nibh. Etiam venenatis
+							lectus a lorem tincidunt, ac laoreet arcu pulvinar. Duis efficitur porttitor eleifend. Fusce.</p>
+						<a class="button-round w-button" href="/posts/half-and-half-variety-milk-viennese-body-cappuccino">Tétel
+							megtekintése ❭</a>
+					</div>
+				</div>
+				<div class="w-dyn-item">
+					<div class="post-wrapper">
+						<a class="blog-title-link w-inline-block" href="/posts/steamed-siphon-froth-mazagran-cafe-au-lait">
+							<h1 class="blog-title">Donec sodales eros ac sem.</h1>
+						</a>
+						<div class="post-info-wrapper">
+							<div class="post-info">2001, Március 26.</div>
+							<div class="post-info">|</div>
+							<a class="post-info when-link" href="#">Magyar</a>
+						</div>
+						<p class="post-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula dui velit, nec
+							tempor dui ultricies ac. Nullam ut sodales sapien. Ut quis molestie erat. Cras a erat nibh. Etiam venenatis
+							lectus a lorem tincidunt, ac laoreet arcu pulvinar. Duis efficitur porttitor eleifend. Fusce.
+						</p>
+						<a class="button-round w-button" href="/posts/steamed-siphon-froth-mazagran-cafe-au-lait">Tétel megtekintése ❭</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="button-wrapper">
+			<a class="button w-button" href="all.html">Több&nbsp;</a>
+		</div>
+	</div>
+
+	<script src="js/popup.js"></script>
+</body>
+
+</html>
